@@ -42,7 +42,7 @@ pipeline {
                         -e 's/SERVER_NAME/dev-webserver-1/g' \
                         -e 's/SERVER_IP/10.0.143.228/g' \
                         -e 's/SERVER_SUBNET/Private-subnet-dev-1A/g' \
-                        -e 's/SERVER_AZ/eu-west-1a/g' \
+                        -e 's/SERVER_AZ/us-west-1a/g' \
                         -e 's/SERVER_OS/Ubuntu/g' \
                         > webserver1.html
 
@@ -77,7 +77,7 @@ pipeline {
                         -e 's/SERVER_NAME/dev-webserver-2/g' \
                         -e 's/SERVER_IP/10.0.159.29/g' \
                         -e 's/SERVER_SUBNET/Private-subnet-dev-1B/g' \
-                        -e 's/SERVER_AZ/eu-west-1b/g' \
+                        -e 's/SERVER_AZ/us-west-1c/g' \
                         -e 's/SERVER_OS/Amazon Linux 2023/g' \
                         > webserver2.html
 
